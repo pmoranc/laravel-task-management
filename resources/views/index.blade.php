@@ -7,7 +7,7 @@
 			<a href="{{ route('tasks.create') }}" class="mt-2 text-sm text-gray-700 dark:text-gray-400 hover:underline">Add new +</a>
 		</div>
 		<div>
-			<select id="select-project" class="form-select w-full max-w-xs">
+			<select id="select-project" class="form-select w-full max-w-xs dark:text-slate-300 dark:bg-transparent">
 				<option value="all">All Projects</option>
 				@foreach ($projects as $project)
 				<option value="{{ $project }}">{{ $project }}</option>
